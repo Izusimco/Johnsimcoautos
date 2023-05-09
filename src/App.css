@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: fixed;
 }
 
 .App-logo {
@@ -12,20 +13,46 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.form-control{
+margin-right: 10px;
+}
+input.form-control::placeholder{
+  opacity: 0.3;
+}
+.ProjectName{
+  text-align: center;
+  background: yellow;
+  border: 2px solid black;
+  color: text;
+  padding: 12px;
+}
+.SearchInput{
+ margin-right: 7px;
+ 
+}
+.InputDetails{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.form-control::placeholder {
+  opacity: 0.1;
+}
+p.card-text{
+  font-size: small;
 }
 
-.App-link {
-  color: #61dafb;
+div.card-title.h5{
+  margin-top: 0;
+  font-size: 1rem;
+}
+img.card-img-top{
+  margin-left: 17px;
+  margin-top: 5px;
+}
+div.card{
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 @keyframes App-logo-spin {
